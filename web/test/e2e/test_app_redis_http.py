@@ -1,7 +1,6 @@
-# test/e2e/test_app_redis_http.py
-
 import pytest
 import requests
+
 
 @pytest.mark.timeout(1.5)
 def test_should_update_redis(redis_client, flask_url):
